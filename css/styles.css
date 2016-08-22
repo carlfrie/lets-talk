@@ -1,0 +1,272 @@
+
+body {
+}
+
+.container-fluid {
+}
+
+
+
+.background {
+
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #F5F5F5;
+  width: 60%;
+  max-width: 75%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  margin-top: 20%;
+  border-radius: 10px;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#img-bg {
+  min-height: 100%;
+  min-width: 1024px;
+
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+  #img-bg {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
+
+
+
+
+.main-text {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  color: #212121;
+
+}
+
+.main-text h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 450%;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.main-text h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
+  font-size: 300%;
+  text-align: center;
+}
+
+.body-text h3 {
+  font-family: 'Gentium Basic', serif;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 20px;
+  color: #757575;
+
+}
+
+
+
+.btn {
+	width:200px;
+	margin-top: 10px;
+	border:2px solid #607D8B;
+  border-radius: 6px;
+	color: #212121;
+  font-family: 'Gentium Basic', serif;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background: #FFF;
+	color: #212121;
+}
+.btn:active {
+	cursor: pointer;
+}
+.btn {
+	display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quote {
+  font-family: 'Gentium Basic', serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background a {
+  color: #030632;
+  text-decoration: none;
+}
+
+.background a:hover {
+  color: #B21212;
+}
+
+/* Navigation */
+
+.navbar-inverse {
+  background-color: #383838;
+}
+
+
+#navbar-size {
+  height: 60px;
+  margin-top: -10px;
+  padding-right: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: red;
+}
+
+.navbar-nav>li>a {
+    color: #fff;
+}
+
+#projectName {
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+#projectName a {
+  color: #fff;
+}
+
+#projectName a:hover {
+  color: red;
+}
+
+nav {
+  background-color: #ededed;
+  opacity: .80;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  -webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+    color: #1D4975;
+}
+
+nav > ul > li > a {
+			color: #red;
+			display: block;
+			line-height: 40px;
+			padding: 0 24px;
+			text-decoration: none;
+}
+
+nav > ul > li:hover {
+  color: #fff;
+}
+
+nav > ul > li:hover > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*** footer ***/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #383838;
+  opacity: .9;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 10px;
+}
+
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+
+      .main-text h1 {
+        font-size: 200%;
+      }
+
+      .main-text h2 {
+        font-size: 150%;
+      }
+
+      .body-text h3{
+        font-size: 150%;
+      }
+
+      #quote {
+        font-size: 1.5em;
+      }
+
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+    }
